@@ -16,6 +16,9 @@ public class Login {
     private String dob;
     private String gender;
     private String ip_add;
+    private String status;
+    private String date;
+    private  int validity;
 
     public long getId() {
         return id;
@@ -87,5 +90,29 @@ public class Login {
 
     public void setIp_add(String ip_add) {
         this.ip_add = ip_add;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public int getValidity() {
+        return validity;
+    }
+
+    public void setValidity(int validity) {
+        this.validity = validity;
     }
 }
